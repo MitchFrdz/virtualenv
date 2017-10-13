@@ -1,0 +1,40 @@
+{
+  "name": "NodeProjects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "knockout": "^3.4.2",
+    "morgan": "^1.7.0",
+    "requirejs": "^2.3.5",
+    "typings": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.33",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^6.0.46",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "gulp scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitchFrdz/virtualenv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MitchFrdz/virtualenv/issues"
+  },
+  "homepage": "https://github.com/MitchFrdz/virtualenv#readme"
+}
